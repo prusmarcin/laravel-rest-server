@@ -78,7 +78,7 @@ Returns
 ```
 
 Other methods:
-![alt text](https://prusmarcin/github/route-list.jpg)
+![alt text](https://prusmarcin.pl/github/route-list.jpg)
 
 
 Author
