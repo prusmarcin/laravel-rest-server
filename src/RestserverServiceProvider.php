@@ -2,7 +2,7 @@
 
 namespace Restserver;
 
-use Illuminate\Support\Facades\Schema;
+//use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 
 class RestserverServiceProvider extends ServiceProvider
@@ -14,7 +14,7 @@ class RestserverServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-		Schema::defaultStringLength(191);
+		//Schema::defaultStringLength(191);
 		$this->loadRoutesFrom(__DIR__.'/routes/api.php');
 		$this->loadMigrationsFrom(__DIR__.'/migrations');
     }
