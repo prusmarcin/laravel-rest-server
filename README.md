@@ -77,8 +77,8 @@ Returns
 [{"id":5,"name":"Produkt 8","amount":2},{"id":4,"name":"Produkt 7","amount":6},{"id":2,"name":"Produkt 2","amount":12},{"id":1,"name":"Produkt 1","amount":4}]
 ```
 
-http://localhost:8000/api/items/available/5
-http://localhost:8000/api/items/unavailable
+Other methods:
+![alt text](https://prusmarcin/github/route-list.jpg)
 
 
 Author
