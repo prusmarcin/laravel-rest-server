@@ -47,6 +47,8 @@ Once this has finished, you will need to add the service provider to the `provid
 \Restserver\RestserverServiceProvider::class,
 ```
 
+And configure the database connection in `.env` file for your Laravel installation.
+
 Run migration
 
 ``` bash
@@ -57,6 +59,7 @@ Run seeder
 ``` bash
 $ php artisan db:seed --class=Restserver\\Seeds\\DatabaseSeeder
 ```
+
 Run laravel on localhost
 ``` bash
 $ php artisan serve
