@@ -1,12 +1,11 @@
 # laravel-rest-server
-Package rest full server for Laravel
+Package Rest Full API server for Laravel
 
-[![Build Status](http://img.shields.io/travis/prusmarcin/laravel-rest-server.svg)](https://travis-ci.org/prusmarcin/laravel-rest-server)
+You can see package Client API [package laravel-rest-client](https://github.com/prusmarcin/laravel-rest-client) for use on a separate Laravel installation
+
 [![Total Downloads](http://img.shields.io/packagist/dm/prusmarcin/laravel-rest-server.svg)](https://packagist.org/packages/prusmarcin/laravel-rest-server)
 [![Latest Stable Version](http://img.shields.io/packagist/v/prusmarcin/laravel-rest-server.svg)](https://packagist.org/packages/prusmarcin/laravel-rest-server)
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/prusmarcin/laravel-rest-server/blob/master/LICENSE)
-
-:package_description
 
 - [Installation](#installation)
 - [Usage](#usage)
