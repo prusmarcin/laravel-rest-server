@@ -8,7 +8,6 @@ Route::group([
 	'prefix' => 'api',
 ], function(){
 	
-	Route::get('test', 'ItemsController@test');
 	Route::get('/items/available', 'ItemsController@available');
 	Route::get('/items/available/{amount}', 'ItemsController@availableCondition');
 	Route::get('/items/unavailable', 'ItemsController@unavailable');

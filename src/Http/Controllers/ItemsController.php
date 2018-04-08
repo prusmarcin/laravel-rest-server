@@ -8,11 +8,6 @@ use Validator;
 
 class ItemsController extends Controller
 {
-
-    public function test()
-    {
-        return 'test Controller';
-    }
 	
 	public function available()
     {
