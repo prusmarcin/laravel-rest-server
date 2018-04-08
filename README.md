@@ -1,10 +1,17 @@
 # laravel-rest-server
 Package rest full server for Laravel
 
+[![Build Status](http://img.shields.io/travis/prusmarcin/laravel-rest-server.svg)](https://travis-ci.org/prusmarcin/laravel-rest-server)
+[![Total Downloads](http://img.shields.io/packagist/dm/prusmarcin/laravel-rest-server.svg)](https://packagist.org/packages/prusmarcin/laravel-rest-server)
+[![Latest Stable Version](http://img.shields.io/packagist/v/prusmarcin/laravel-rest-server.svg)](https://packagist.org/packages/prusmarcin/laravel-rest-server)
+[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/prusmarcin/laravel-rest-server/blob/master/LICENSE)
+
 :package_description
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Author](#author)
+- [License](#license)
 
 Installation
 ------------
@@ -60,5 +67,25 @@ Usage
 -----
 
 http://localhost:8000/api/items/available
+
+Returns
+
+``` json
+[{"id":5,"name":"Produkt 8","amount":2},{"id":4,"name":"Produkt 7","amount":6},{"id":2,"name":"Produkt 2","amount":12},{"id":1,"name":"Produkt 1","amount":4}]
+```
+
 http://localhost:8000/api/items/available/5
 http://localhost:8000/api/items/unavailable
+
+
+Author
+-------
+
+- [Prus Marcin](https://github.com/prusmarcin)
+- [Portfolio](https://prusmarcin.pl/)
+
+
+License
+-------
+
+The MIT License (MIT). Please see [License File](https://github.com/prusmarcin/laravel-rest-server/blob/master/LICENSE) for more information.
