@@ -18,9 +18,5 @@
 			"Restserver\\Seeds\\": "src/seeds"
         }
     },
-	"autoload": {
-        "Restserver\\": "src/laravel-rest-server",
-		"Restserver\\Seeds\\": "src/laravel-rest-server/src/seeds"
-    },
     "minimum-stability": "dev"
 }
