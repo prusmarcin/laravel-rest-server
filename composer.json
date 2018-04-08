@@ -14,8 +14,8 @@
     ],
 	"autoload": {
         "psr-4": {
-			"Restserver\\": "src/prusmarcin/laravel-rest-server",
-			"Restserver\\Seeds\\": "src/prusmarcin/laravel-rest-server/src/seeds"
+			"Restserver\\": "src/",
+			"Restserver\\Seeds\\": "src/seeds"
         }
     },
 	"autoload": {
