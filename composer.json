@@ -1,0 +1,16 @@
+{
+    "name": "prusmarcin/laravel-rest-server",
+    "description": "Package Rest Full Server for Laravel 5.6",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Prus",
+            "email": "mhome@o2.pl"
+        }
+    ],
+    "minimum-stability": "dev"
+}
