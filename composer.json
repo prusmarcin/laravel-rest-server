@@ -13,8 +13,14 @@
         }
     ],
 	"autoload": {
+        "psr-4": {
+			"Restserver\\": "src/prusmarcin/laravel-rest-server",
+			"Restserver\\Seeds\\": "src/prusmarcin/laravel-rest-server/src/seeds"
+        }
+    },
+	"autoload": {
         "Restserver\\": "src/laravel-rest-server",
-		"Restserver\\Seeds\\": "src/laravel-rest-server/src/seeds"	
+		"Restserver\\Seeds\\": "src/laravel-rest-server/src/seeds"
     },
     "minimum-stability": "dev"
 }
