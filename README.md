@@ -60,7 +60,7 @@ Run seeder
 $ php artisan db:seed --class=Restserver\\Seeds\\DatabaseSeeder
 ```
 
-Run laravel on localhost
+Run laravel server
 ``` bash
 $ php artisan serve
 ```
