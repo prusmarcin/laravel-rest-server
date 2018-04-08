@@ -27,7 +27,7 @@ Install via composer - edit your `composer.json` to require the package.
 ``` json
 {
     "require": {
-        "prusmarcin/laravel-rest-server": "0.*"
+        "prusmarcin/laravel-rest-server": "dev-master"
     }
 }
 ```
@@ -37,7 +37,7 @@ Then run `composer update` in your terminal to pull it in.
 Or via the command line in the root of your application installation.
 
 ``` bash
-$ composer require "prusmarcin/laravel-rest-server:0.*"
+$ composer require prusmarcin/laravel-rest-server
 ```
 
 
