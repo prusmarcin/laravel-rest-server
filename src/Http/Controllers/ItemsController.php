@@ -9,12 +9,23 @@ use Validator;
 class ItemsController extends Controller
 {
 	
+	/**
+     * Display available items with amount > 0.
+     *
+     * @return items as json
+     */
 	public function available()
     {
         $response = Item::where('amount', '>', 0)->orderBy('id', 'desc')->get();
         return response()->json($response);
     }
 
+	/**
+     * Display available items with amount entered by user.
+     *
+	 * @param int $amount - count each item
+     * @return items as json
+     */
     public function availableCondition($amount)
     {
         if (isset($amount)) {
@@ -23,6 +34,11 @@ class ItemsController extends Controller
         }
     }
 
+	/**
+	* Display unavailable items with amount = 0.
+     *
+     * @return items as json
+     */
     public function unavailable()
     {
         $response = Item::where('amount', '=', 0)->orderBy('id', 'desc')->get();
