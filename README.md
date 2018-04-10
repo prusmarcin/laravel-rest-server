@@ -54,6 +54,8 @@ Run migration
 ``` bash
 $ php artisan migrate
 ```
+Note: If you have error when you run migration: "Specified key was too long error solution". Read this article: [https://geektnt.com/laravel-5-4-migration-unique-key-is-too-long.html](https://geektnt.com/laravel-5-4-migration-unique-key-is-too-long.html)
+
 Run seeder
 
 ``` bash
@@ -82,11 +84,15 @@ More methods:
 
 Testing
 -------
+Run laravel server
+``` bash
+$ php artisan serve
+```
 
-Run the tests with:
+Then run the tests with:
 
 ``` bash
-$ vendor/bin/phpunit
+$ vendor/bin/phpunit vendor/prusmarcin/laravel-rest-server/tests
 ```
 
 
