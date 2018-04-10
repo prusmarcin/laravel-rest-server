@@ -92,7 +92,7 @@ $ php artisan serve
 Then run the tests with:
 
 ``` bash
-$ vendor/bin/phpunit vendor/prusmarcin/laravel-rest-server/tests
+$ vendor/bin/phpunit vendor/prusmarcin/laravel-rest-server
 ```
 
 
