@@ -18,5 +18,13 @@
 			"Restserver\\Seeds\\": "src/seeds"
         }
     },
+	"autoload-dev": {
+        "psr-4": {
+            "Restserver\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+},
     "minimum-stability": "dev"
 }
