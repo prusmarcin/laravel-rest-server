@@ -9,6 +9,7 @@ You can see package Client API [package laravel-rest-client](https://github.com/
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Testing](#testing)
 - [Author](#author)
 - [License](#license)
 
@@ -78,6 +79,15 @@ Returns
 
 More methods:
 ![Screenshot](route-list.jpg)
+
+Testing
+-------
+
+Run the tests with:
+
+``` bash
+$ vendor/bin/phpunit
+```
 
 
 Author
